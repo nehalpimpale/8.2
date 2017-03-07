@@ -13,12 +13,20 @@ Q1. Explain the core changes made in Hadoop 2.x
 There are many changes especially single point of failure and decentralized job tracker power to data node are the main changes. Entire job tracker architecture changed. Some of the main difference between hadoop 1.x and 2.x given below.
 
 1.single point of failure - rectified
+
 2.nodes limitation (4000 to unlimited) _ rectified
+
 3.job tracker bottleneck - rectified
+
 4.map reduce slots are changed static to dynamic 
+
 5.high availability - available
+
 6.support both interactive, graph iterative algorithms (1.x not supported)
+
 7.allows other applications also to integrate with HDFS
+
+
 
 Q2. Explain the difference between MapReduce 1 and MapReduce 2 / Yarn
 
